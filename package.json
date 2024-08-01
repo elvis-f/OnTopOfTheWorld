@@ -1,0 +1,35 @@
+{
+  "name": "testface",
+  "author": "elvis-f",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "testface",
+    "uuid": "d19e613a-6d96-48c5-a467-6587bc937ab1",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BACKGROUND",
+          "file": "images/earth.png"
+        }
+      ]
+    }
+  }
+}
