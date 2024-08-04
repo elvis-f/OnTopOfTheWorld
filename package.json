@@ -1,12 +1,12 @@
 {
-  "name": "testface",
+  "name": "on_top_of_the_world",
   "author": "elvis-f",
   "version": "1.0.0",
   "keywords": ["pebble-app"],
   "private": true,
   "dependencies": {},
   "pebble": {
-    "displayName": "testface",
+    "displayName": "On Top Of The World",
     "uuid": "d19e613a-6d96-48c5-a467-6587bc937ab1",
     "sdkVersion": "3",
     "enableMultiJS": true,
@@ -26,8 +26,13 @@
       "media": [
         {
           "type": "bitmap",
-          "name": "IMAGE_BACKGROUND",
-          "file": "images/earth.png"
+          "name": "IMAGE_BACKGROUND_DAY",
+          "file": "images/earth-1-v2.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BACKGROUND_NIGHT",
+          "file": "images/earth-2-test.png"
         }
       ]
     }
